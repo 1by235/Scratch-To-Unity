@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Scratch to Unity Converter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Scratch to Unity Converter</h1>
+  <p>Upload a Scratch <code>.sb3</code> file to convert its blocks into Unity-style code and assets.</p>
+
+  <input type="file" id="fileInput" accept=".sb3" />
+  <pre id="output">Waiting for file upload...</pre>
+
+  <button id="downloadBtn" disabled>Download Unity Script (.cs)</button>
+  <button id="downloadProjectBtn" disabled>Download Unity Project (.zip)</button>
+
+  <script src="qas.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
